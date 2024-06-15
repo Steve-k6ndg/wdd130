@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Steve Robert Lagaisse WDD130/title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="#">Home</a>
+          <a href="wwr/">Rafting Website</a>
+          <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Steve Robert Lagaisse WDD130</h1>
+        <p>I live in Valley Center California,30 miles North East of San Diego, about 20 miles from the Coast</p>
+        <img src="images/profile.steve.png"" alt="Steve Lagaisse" width="200">
+    </main>
+    <footer>
+        <p>WDD 130 Site &copy</p>
+    </footer>
+</body>
+</html>
