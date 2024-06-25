@@ -34,6 +34,7 @@ p {
 
 main {
     max-width: 840px;
+    padding: 5px;
 }
 
 main img {
