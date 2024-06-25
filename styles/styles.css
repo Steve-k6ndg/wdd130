@@ -55,12 +55,6 @@ aside img {
     height: auto;
 }
 
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
-
 main img {
     width: 150px;
     height: auto;
@@ -81,4 +75,10 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
