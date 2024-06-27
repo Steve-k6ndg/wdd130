@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
+body {
+    font-size: 1.0rem;
+    font-family: system-ui;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 :root {
     --primary-color: #144389;
     --secondary-color: #1B3172;
@@ -18,14 +25,6 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-
-body {
-    font-size: 1.0rem;
-    font-family: system-ui;
-    max-width: 90%;
-    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
