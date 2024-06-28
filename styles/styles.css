@@ -10,22 +10,22 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: gray;
     display: block;
     padding: 20px;
     font-size: 25px;
 }
 
 h1 {
-    color: lightsteelblue;
+    color: steelblue;
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid lightsteelblue;
+    border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px lightgray;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
