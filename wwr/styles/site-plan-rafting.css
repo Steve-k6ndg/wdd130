@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-roboto+slab&family=optional-2nd-font-ariel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=font-roboto&family=optional-2nd-font-ariel&display=swap');
 
 body {
     font-family: var(--paragraph-font);
@@ -12,8 +12,8 @@ body {
     --accent1-color: #0077b6;
     --accent2-color: #00b4d8;
 
-    --heading-font: Roboto Slab, ariel, San serif;
-    --paragraph-font: "Roboto Slab", Ariel, sans-serif;
+    --heading-font: 'Roboto', ariel, San serif;
+    --paragraph-font: 'Roboto', Ariel, sans-serif;
 
     --nav-background-color: #caf0f8;
     --nav-link-color: #90e0ef;
