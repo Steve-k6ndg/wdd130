@@ -7,7 +7,7 @@
     --accent2-color: #00b4d8;
 
     --heading-font: 'roboto', arial;
-    --paragraph-font: 'Roboto', Arial, sans-serif;
+    --paragraph-font: 'roboto', arial, sans-serif;
     --nav-background-color: #caf0f8;
     --nav-link-color: #90e0ef;
     --nav-hover-link-color: #0077b6;
@@ -16,8 +16,7 @@
 
 body {
     font-family: 'Roboto', arial sans serif;
-    font-size: 1.0rem;
-    max-width: 90%;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -37,8 +36,10 @@ p {
 
 header {
     background-color: var(--accent1-color);
-    margin: 0 auto;
+    padding: 2rem;
     display: grid;
+    grid-template-columns: 150px auto;
+    grid-gap: 2rem;
 }
 
 nav {
@@ -60,25 +61,23 @@ nav a {
 
  .hero h1 {
     color: black;
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
-    top: 1rem;
-    left: 0;
+    margin-bottom: 0;
     right: 0;
-    padding: 50px;
+    padding: 10px;
 }
 
 .hero article {
-    position: absolutele;
+    position: absolute;
     background-color: rgba(19, 196, 228, 0.5);
-    text-align: left;
-    width: 80%;
+    width: 35%;
     padding: 20px;
     left: 0;
     right: 0;
     margin: 0 auto;
     color: white;
-    top: 8rem;
+    top: 20rem;
 }
 
 .hero article img {
