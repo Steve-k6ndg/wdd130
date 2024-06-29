@@ -21,13 +21,20 @@ nav a {
     padding: .5rem;
     display: block;
     text-decoration: none;
-    font-size: 700;
+    font-size: 1.2rem;  
+    font-weight: 700;  
     color: #fff; 
 }
 
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+   }
+
 h1 {
+    border-bottom: #fff;
     color: steelblue;
-    padding: .5rem; 
+    padding: .5rem;
 }
 
 main {
@@ -75,13 +82,6 @@ aside h2 {
     left: 120px;
 }
 
-header, footer {
-    max-width: 840px;
-    margin: 0 auto;
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
 
 /* Class Selectors */ 
 .box {
