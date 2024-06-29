@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=roboto:wght@100&display=swap');
+@import url(https://fonts.google.com/specimen/Roboto+Slab?preview.text=arial%0A%0A&preview.layout=grid&query=roboto);
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: Roboto, Arial, sans serif;
     max-width: 960px;
     padding: 20px;
 }
@@ -12,8 +12,8 @@ body {
     --accent1-color: #0077b6;
     --accent2-color: #00b4d8;
 
-    --heading-font: 'Roboto', ariel, Sans serif;
-    --paragraph-font: 'Roboto', Ariel, sans-serif;
+    --heading-font: 'Roboto', 'arial', Sans serif;
+    --paragraph-font: 'Roboto', 'Arial', sans-serif;
 
     --nav-background-color: #caf0f8;
     --nav-link-color: #90e0ef;
