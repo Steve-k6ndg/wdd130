@@ -35,21 +35,20 @@ p {
 }
 
 header {
-    background-color: var(--accent1-color);
+    /* background-color: var(--accent1-color); */
     padding: 2rem;
     display: grid;
-    grid-template-columns: 150px auto;
-    grid-gap: 2rem;
-}
+    grid-template-columns: 200px auto;
+ }
 
 nav {
-    font-size: 1rem;
-    text-align: left
+    font-size: 1.5rem;
+    text-align: center
 }
 
 nav a {
     color: var(--nav-link-color);
-    padding: 2rem;
+    padding: .75rem;
     text-decoration: none;
 }
 
@@ -63,9 +62,9 @@ nav a {
     color: black;
     /* position: absolute; */
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     right: 0;
-    padding: 10px;
+    padding: 20px;
 }
 
 .hero article {
@@ -87,12 +86,19 @@ nav a {
 
 section h2 {
     text-align: left;
-    padding: 1rem;
+    padding: 1.5rem;
     max-width: 100%;
+    font-size: 34px;
+}
+
+figure {
+    text-align: left;
+    font-size: 24px;
 }
 
 footer p {
     text-align: left;
     justify-self: left;
-    margin: 0;
+    margin: 10px;
+    padding: 20px
 }
