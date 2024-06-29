@@ -31,15 +31,15 @@ header, .grid, footer {
     margin: 0 auto;
    }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
+
 h1 {
     border-bottom: #fff;
     color: steelblue;
     padding: .5rem;
-}
-
-.grid {
-    display: grid;
-    align-items: center;
 }
 
 main {
