@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-    font-family: 'Roboto', arial sans serif;
-    font-size: 1.0rem;
-    max-width: 90%;
-    margin: 0 auto;
-}
-
 :root {
     --primary-color: #90e0ef;
     --secondary-color: #caf0f8;
@@ -19,6 +12,13 @@ body {
     --nav-link-color: #90e0ef;
     --nav-hover-link-color: #0077b6;
     --nav-hover-background-color: #00b4d8;
+}
+
+body {
+    font-family: 'Roboto', arial sans serif;
+    font-size: 1.0rem;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 * {
@@ -52,46 +52,38 @@ nav a {
     text-decoration: none;
 }
 
-.hero image {
-    background-color: #8ea9df;
-    background-image: url("../images/littlecolorado-wide.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    padding-top: 200px;
-    padding-bottom: 200px;
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
  .hero h1 {
     color: black;
     position: absolute;
     text-align: center;
-    top: 10px;
+    top: 1rem;
     left: 0;
     right: 0;
     padding: 50px;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 .hero article {
-    position: absolute;
+    position: absolutele;
     background-color: rgba(19, 196, 228, 0.5);
     text-align: left;
-    width: 70%;
+    width: 80%;
     padding: 20px;
-    left: 80%;
-    margin-top: -40%;
-    margin-left: -65%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     color: white;
+    top: 8rem;
 }
 
 .hero article img {
     float: right;
-    margin-left: 10px;
     width: 200px;
-    height: auto;
-    padding: 3px;
 }
 
 section h2 {
