@@ -11,7 +11,7 @@ body {
 
 nav {
     background-color: steelblue;
-    padding: 1rem;
+    padding: 5rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -39,13 +39,13 @@ header, .grid, footer {
 h1 {
     border-bottom: steelblue;
     color: steelblue;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 main {
-    padding: 0px;
+    padding: 5px;
     grid-column: 2/3;
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 main img {
@@ -65,8 +65,8 @@ p {
 }
 
 aside {
-    width: 20rem;
-    height: 400;
+    width: 25rem;
+    height: 500;
     position: relative;
     border: 10px solid rgba(0, 0, 0, 0.1);
     background-color: #ddd;
@@ -77,8 +77,7 @@ aside {
 
 aside img {
     width: 275px;
-    height: 350px;
-    height: auto;
+    height: 300px;
 }
 
 p {
@@ -88,14 +87,14 @@ p {
 aside h2 {
     position: relative;
     bottom: 10px;
-    left: 40px;
+    left: 60px;
 }
 
 
 /* Class Selectors */ 
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
@@ -106,8 +105,8 @@ aside h2 {
 }
 
 footer {
-    margin-top: 250px;
-    padding: 25px;
+    margin-top: 200px;
+    padding: 355px;
     border-top: #fff;
     text-align: center;
     color: #fff;
