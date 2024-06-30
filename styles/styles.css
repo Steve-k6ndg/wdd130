@@ -21,9 +21,9 @@ nav a {
     padding: .5rem;
     display: block;
     text-decoration: none;
-    font-size: 1.2rem;  
-    font-weight: 700;  
-    color: #fff; 
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 header, .grid, footer {
@@ -107,9 +107,9 @@ aside h2 {
 
 footer {
     margin-top: 50px;
-    padding: 1000px;
+    padding: 100px;
     border-top: #fff;
     text-align: center;
-    background-color: steelblue;
+    background-color: rgb(201, 226, 246);
 }
 
