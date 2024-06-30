@@ -84,8 +84,8 @@ p {
 }
 
 aside h2 {
-    position: absolute;
-    bottom: 75px;
+    position: relative;
+    top: 75px;
     left: 125px;
 }
 
