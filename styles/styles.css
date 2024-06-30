@@ -39,6 +39,7 @@ header, .grid, footer {
 h1 {
     border-bottom: solid;
     color: steelblue;
+    text-size-adjust: 28px;
     padding: 2rem;
 }
 
