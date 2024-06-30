@@ -37,9 +37,9 @@ header, .grid, footer {
 }
 
 h1 {
-    border-bottom: #fff;
+    border-bottom: steelblue;
     color: steelblue;
-    padding: .5rem;
+    padding: 1.5rem;
 }
 
 main {
@@ -66,7 +66,7 @@ p {
 
 aside {
     width: 20rem;
-    height: fit-content;
+    height: 400;
     position: relative;
     border: 10px solid rgba(0, 0, 0, 0.1);
     background-color: #ddd;
@@ -88,7 +88,7 @@ p {
 aside h2 {
     position: relative;
     bottom: 10px;
-    left: 0px;
+    left: 40px;
 }
 
 
