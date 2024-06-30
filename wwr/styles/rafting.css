@@ -101,11 +101,6 @@ section h2 {
     grid-row: 1/5;
 }
 
-.grid {
-    display: grid;
-    align-items: left;
-}
-
 .navigation {
     display: flex;
     list-style: none;
