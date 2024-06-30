@@ -37,7 +37,7 @@ header, .grid, footer {
 }
 
 h1 {
-    border-bottom: steelblue;
+    border-bottom: solid;
     color: steelblue;
     padding: 2rem;
 }
@@ -66,7 +66,7 @@ p {
 
 aside {
     width: 300px;
-    height: 500px;
+    height: 300px;
     position: relative;
     border: 10px solid rgba(0, 0, 0, 0.1);
     background-color: #ddd;
