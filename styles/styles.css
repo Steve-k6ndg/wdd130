@@ -65,9 +65,10 @@ p {
 }
 
 aside {
-    width: 20rem;
+    width: 25rem;
+    height: fit-content;
     position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 10px solid rgba(0, 0, 0, 0.1);
     background-color: #ddd;
     color: #000;
     grid-column: 1/2;
