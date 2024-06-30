@@ -65,7 +65,7 @@ p {
 }
 
 aside {
-    width: 25rem;
+    width: 20rem;
     height: fit-content;
     position: relative;
     border: 10px solid rgba(0, 0, 0, 0.1);
