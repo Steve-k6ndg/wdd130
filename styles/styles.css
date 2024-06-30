@@ -76,7 +76,7 @@ aside {
 }
 
 aside img {
-    width: 275px;
+    width: 250px;
     height: 350px;
     height: auto;
 }
@@ -88,7 +88,7 @@ p {
 aside h2 {
     position: relative;
     bottom: 10px;
-    left: 50px;
+    left: 250px;
 }
 
 
@@ -106,8 +106,8 @@ aside h2 {
 }
 
 footer {
-    margin-top: 100px;
-    padding: 50px;
+    margin-top: 50px;
+    padding: 1000px;
     border-top: #fff;
     text-align: center;
     background-color: steelblue;
