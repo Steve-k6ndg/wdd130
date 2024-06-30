@@ -76,7 +76,7 @@ aside {
 }
 
 aside img {
-    width: 285px;
+    width: 275px;
     height: 350px;
     height: auto;
 }
@@ -88,7 +88,7 @@ p {
 aside h2 {
     position: relative;
     bottom: 10px;
-    left: 100px;
+    left: 50px;
 }
 
 
