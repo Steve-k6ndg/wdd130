@@ -15,13 +15,12 @@
 }
 
 header {
-    background-color: var(--accent1-color);
-    padding: 2rem;
+    margin: 1rem auto;
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 120px 1fr 2fr;
     align-items: center;
-    border-bottom: 1px solid;
-    max-width: 940px;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
  }
 
 header img {
@@ -36,6 +35,7 @@ h1 {
 }
 
 nav {
+    font-size: 1.5rem;
     text-align: right;
 }
 
@@ -45,7 +45,7 @@ nav {
 
 .navigation a {
     display: block;
-    color: navy;
+    color: var(--nav-link-color);
     padding: 20px;
     text-decoration: none;
 }
@@ -206,48 +206,84 @@ figure img {
 
 figcaption {
     background-color: #222;
-    color: #000;
+    color: #fff;
     font: italic smaller san-serif;
     padding: 3px;
     text-align: center;
 }
 
-nav {
-    font-size: 1.5rem;
-    text-align: center
+.grid-container {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    padding: 8px;
 }
 
-nav a {
-    color: var(--nav-link-color);
-    padding: .75rem;
-    text-decoration: none;
-}
-
-section h2 {
-    text-align: left;
-    padding: 1.5rem;
-    max-width: 100%;
-    font-size: 34px;
-    grid-row: 1/5;
-}
-
-.navigation {
-    display: flex;
-    list-style: none;
-}
-
-figcaption {
-    background-color: black;
-    color: #fff;
-    font: italic small san serif;
-    padding: 3px;
+.grid-items {
+    background-color: #dcebf8;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
+h2 {
+    color: black;
+}
+
 footer {
-    background-color: var(--accent1-color);
-    text-align: left;
-    justify-self: left;
-    margin: 40px;
-    padding: 1rem
+    max-width: 840px;
+    left: 0;
+    right: 0;
+    background: steelblue;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.sociallinks {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.sociallinks img {
+    width: 50px;
+}
+
+.sociallinks a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-bottom {
+    max-width: 840px;
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
