@@ -13,8 +13,29 @@
     <form>
         <fieldset>
             <legend>Contact Information</legend>
-            <!--form elements will go here-->
+            <label for="fullname">Full Name:</label>>
+            <input type="text" id="fullname" name="fullname">
+            <label for="usermail">Email:</label>
+            <input type="email" id="usermail" name="usermail">
         </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <label for="browser">What is your favorite internet browser?</label>
+            <select id="browser" name="browser">
+                <option value="Chrome">Chrome</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Safari">Safari</option>
+                <option value="Edge">Edge</option>
+                <option value="Brave">Brave</option>
+                <option value="Other">Other</option>
+            </select>
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet" value="household pet">
+            <label for="feedback">List the places you have lived:</label>
+            <input type="checkbox" id="place" name="place" value="Location"
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amersterdam Netherlands, Tibuktu Mali"></textarea>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
     </form>
   </main>
   <footer>
