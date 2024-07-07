@@ -14,11 +14,14 @@
     <form action="/action_page.php">
         <fieldset>
             <legend>Contact Information</legend>
+            </div class="form=item2">
             <label>Fullname: <input type="text" name="fullname"></label><br>
             <label>Email: <input type="email" name="usermail"></label><br>
+            </div>
         </fieldset>
         <fieldset>
             <legend>Questions</legend>
+            <div class="column1">
             <label for="browser">What is your favorite internet browser?</label>
             <select id="browser" name="browser">
                 <option value="Chrome">Chrome</option>
@@ -28,11 +31,16 @@
                 <option value="Brave">Brave</option>
                 <option value="Other">Other</option>
             </select>
+            </div>
+            <div class="column1">
             <label for="pet">Do you have a household pet?</label>
             <input type="checkbox" id="pet" name="pet">
+            </div>
+            <div class="column1">
             <label for="feedback">List the places you have lived:</label>
             <textarea id="feedback" name="feedback" rows="4" cols="25">"Stillwater Florida, Amersterdam Netherlands, Tibuktu Mali"></textarea>
-        </fieldset>
+            </div>
+          </fieldset>
         <button type="submit">Submit Poll</button>
     </form>
   </main>
