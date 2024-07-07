@@ -54,12 +54,13 @@ body {
 }
 
 #next-btn {
-    background: #001e4d;
+    background: #0541a1;
     color: #fff;
-    font-weight: 500;
-    width: 150px;
+    font-weight: 1000;
+    font-size: 18px;
+    width: 540px;
     border: 0;
-    padding: 10px;
+    padding: 20px;
     margin: 20px auto 0;
     border-radius: 4px;
     cursor: pointer;
