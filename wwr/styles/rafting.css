@@ -50,6 +50,12 @@ nav {
     text-decoration: none;
 }
 
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
 body {
     max-width: 840px;
     margin: 0 auto;
@@ -104,6 +110,59 @@ header {
     color: #000;
 }
 
+.header-content button {
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-content button:hover {
+    background-color: var(--nav-background-color);
+}
+
+.cruise-container {
+    background-color: var(--accent2-color);
+}
+
+.cruise.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.country-card {
+    background-color: var(--accent2-color);
+}
+
+.country-card img {
+    width: 100%;
+}
+
+.country-name {
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #111;
+    cursor: pointer;
+}
+
+.country-name i {
+    font-size: 1.2rem;
+}
+
+.country-name span {
+    font-style: italic;
+}
+
 .hero {
     border: 0px solid red;
     position: relative;
@@ -129,11 +188,11 @@ article {
     background-color: rgba(244, 244, 244, 0.6);
     font-weight: 1000;
     padding: 1rem;
-} 
+}
 
 h1 {
     font-size: 2rem;
-    font-family:'Roboto', arial sans-serif; 
+    font-family:'Roboto', arial sans-serif;
     text-align: center;
     color:  #caf0f8;
 }
@@ -234,6 +293,167 @@ figcaption {
 h2 {
     color: black;
 }
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ddd;
+    background-size: cover;
+}
+
+.contact .content {
+    max-width: 840px;
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--nav-background-color);
+}
+
+.contact .content p {
+    font-weight: 500;
+    color: var(--nav-background-color);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5px;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border-radius: 50px;
+    font-size: 22px;
+}
+
+.contactInfo .text {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: start;
+    font-size: 16px;
+}
+
+.contactInfo .text h2 {
+    color: #00bcd4;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.text p {
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input, textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px;
+    pointer-events: none;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span, input:valid ~ span, textarea:focus ~ span, textarea:valid ~ span {
+    color: tomato;
+    font-size: 12px;
+    transform: translate(-20px);
+}
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid-1 {
+    grid-column: 2;
+    margin: 1rem;
+}
+
+aside {
+    width: 26rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grid-1 img, aside img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px gray;
+    float: left;
+    margin-right: 10px;
+}
+
 
 footer {
     max-width: 840px;
