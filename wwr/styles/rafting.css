@@ -17,7 +17,7 @@
 header {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 150px 5fr 2fr;
+    grid-template-columns: 120px 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
@@ -25,7 +25,7 @@ header {
 
 header img {
     margin: 1rem;
-    width: 200px;
+    width: 100px;
     height: auto;
 }
 
