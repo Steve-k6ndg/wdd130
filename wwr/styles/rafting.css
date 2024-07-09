@@ -454,6 +454,20 @@ aside {
     margin-right: 10px;
 }
 
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+}
+
+.team figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: 0 auto
+}
 
 footer {
     max-width: 840px;
