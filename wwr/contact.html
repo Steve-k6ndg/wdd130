@@ -58,20 +58,37 @@
                 <form>
                   <h2>Send Message</h2>
                   <div class="inputBox">
-                    <span>Full Name:</span>
-                    <input type="text" name="name" required="required">
+                    <label for="fullname">Full Name: </label>
+                    <input type="text"  id="fullname">
                   </div>
                   <div class="inputBox">
-                    <span>Email:</span>
-                    <input type="text" name="name" required="required">
+                    <label for="useremail">Email: </label>
+                    <input type="email"  id="useremail">
                   </div>
-                  <div class="inputBox">
-                    <span>Enter your Message...</span>
-                    <textarea required="required"></textarea>
+                  <div class="form-item column-1">
+                    <H3>Let Us Know What Your Message is about?</H3>
                   </div>
-                  <div class="inputBox">
-                      <input type="submit" name="name" value="Send">
+                  <div class="form-item column-1">
+                      <label>
+                      <input type="radio" id="general" name="purpose" value="general">
+                      General Inquire
+                     </label>
+                     <label>
+                     <input type="radio" id="website" name="purpose" value="website">
+                     Website Suggestion
+                     </label>
                   </div>
+                    <label for="Message">Write your message here: </label>
+                    <textarea id="message" class="expandable" name="message" rows="4"></textarea>
+                    <div class="form-item column-1">
+                    <label class="text-center"> 
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Please subscribe me to your monthly newsletter.
+                    </label>
+                  </div>
+                  <div class="form-item column-1">
+                     <button type="submit">Submit My Message</button>
+                </div>
                 </form>
             </div>
         </div>
@@ -93,7 +110,6 @@
           </figure>
           </div>
           <aside class="box">
-
               <ul class="box indent">
                   <li><a href="https://www.google.com/" target="_blank">Bsc in Software Development</a></li>
                   <li><a href="https://www.bing.com/" target="_blank">Diploma Certificate in Web Development</a></li>
