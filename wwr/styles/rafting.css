@@ -478,13 +478,18 @@ footer {
     width: 100vw;
     font-family: "roboto";
     padding-top: 20px;
+    text-align: center;
     color: #fff;
 }
 
+h3 {
+    font-size: 2rem;
+    font-family: Roboto, Arial, sans-serif;
+}
 .footer-content p {
-    max-width: 500px;
+    max-width: 700px;
     margin: 30px auto;
-    line-height:28px;
+    line-height: 20px;
     font-size: 18px;
 }
 
@@ -526,3 +531,5 @@ footer {
     opacity: .4;
     font-weight: 200;
 }
+
+
