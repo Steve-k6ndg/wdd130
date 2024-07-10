@@ -486,6 +486,14 @@ h3 {
     font-size: 2rem;
     font-family: Roboto, Arial, sans-serif;
 }
+
+a {
+    color: #fff;
+    padding: 20px;
+    font-size: 1rem;
+    font-family: "roboto";
+}
+
 .footer-content p {
     max-width: 700px;
     margin: 30px auto;
@@ -497,14 +505,14 @@ h3 {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: right; 
-    margin: 1rem 0 3rem 0;
-    padding-inline: 35px;
+    justify-content: right;
+    margin: 1rem 0 3% 0;
+    padding-inline: 25px;
 }
 
 .sociallinks img {
-    width: 60px;
-    padding: 5px
+    width: 70px;
+    padding: 1px
 }
 
 .sociallinks a {
