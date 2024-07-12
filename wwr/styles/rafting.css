@@ -295,6 +295,63 @@ h2 {
     color: black;
 }
 
+.gallery image {
+    width: 400px;
+    height: auto;
+}
+
+.gallery p {
+    padding: 0 0 12px 0;
+}
+
+table {
+    border: 0.1px solid var(--primary-color);
+    justify-content: center;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+th {
+    background-color: #5f6a75;
+    border: .1px solid var(--nav-background-color);
+    padding: 1rem;
+}
+
+td {
+    background-color: #5f6a75;
+    border: .1px solid var(--accent1-color);
+    padding: 0.5rem;
+}
+
+.trips {
+    display: grid;
+    text-align: justify;
+    grid-template-columns: 1fr;
+}
+
+trips .row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.trips .col {
+    flex-basis: 50%;
+}
+
+.trips h1 {
+    color: #5f6a75;
+    font-size: 100px;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.trips p {
+    color: #5f6a75;
+}
+
 .contact {
     position: relative;
     min-height: 70vh;
@@ -455,12 +512,18 @@ aside {
     margin-right: 10px;
 }
 
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .team {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
 }
 
+.adventure figure,
 .team figure {
     border: thin #c0c0c0 solid;
     display: flex;
@@ -468,6 +531,67 @@ aside {
     padding: 5px;
     max-width: 220px;
     margin: 0 auto
+}
+
+
+.adventure figure img,
+.team figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.adventure figcaption,
+.team figcaption {
+    background-color: #5f6a75;
+    color: #fff;
+    font: italic smaller san-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.home-button {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    text-decoration: none;
+    text-align: center;
+    background-color: #c0c0c0;
+    color: #fff;
+    border: 1px solid #144389;
+    padding: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    min-width: 300px;
+}
+
+.home-button:hover {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    background-color: #c0c0c0;
+    color: black;
+    padding: .5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    min-width: 300px;
+    border: 1px solid #1C3F80;
+}
+
+.reserve-button {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin: 1rem 4rem;
+    padding: 8px;
+}
+
+.reserve-button:hover {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 footer {
