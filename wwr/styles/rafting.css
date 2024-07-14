@@ -179,6 +179,33 @@ header {
     float: right;
 }
 
+.message-us {
+    background-color: #caf0f8;
+    text-align: left;
+    font-size: 24px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.column-1 {
+    grid-template-columns: 1fr;
+    margin: 0.5rem 0;
+}
+
+.column-2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.newsletter {
+    display: grid;
+    padding: 10px;
+}
+
 article {
     position: absolute;
     top: 60px;
@@ -199,7 +226,7 @@ h1 {
 }
 
 .hero h1 {
-    color:  #caf0f8;
+    color:  #ffffff;
     position: absolute;
     top: 0;
     left: 0;
@@ -270,13 +297,13 @@ figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 150px;
+    max-width: 200px;
     margin: auto;
 }
 
 figure img {
-    max-width: 150px;
-    max-height: 180px;
+    max-width: 200px;
+    max-height: 250px;
 }
 
 figcaption {
@@ -360,6 +387,8 @@ trips .row {
 
 .trips p {
     color: #5f6a75;
+    text-align: left;
+    font-size: 18px;
 }
 
 .contact {
@@ -542,7 +571,7 @@ aside {
 }
 
 .text.center {
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
 }
 
@@ -597,6 +626,22 @@ aside {
     cursor: pointer;
     min-width: 300px;
 }
+
+.home-button1 {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    text-decoration: none;
+    text-align: center;
+    background-color: #5612f3;
+    color: #fff;
+    border: 1px solid #144389;
+    padding: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    min-width: 300px;
+}
+
 
 .home-button:hover {
     text-decoration: none;
@@ -677,7 +722,7 @@ a {
 
 .sociallinks img {
     width: 70px;
-    padding: 1px
+    padding: 1px;
 }
 
 .sociallinks a {
