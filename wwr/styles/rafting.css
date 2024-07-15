@@ -185,6 +185,17 @@ header {
     font-size: 24px;
 }
 
+.daP6gZNcOsVt2cUs0JnT {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.daP6gZNcOsVt2cUs0JnT, .ujS29op8P6zVEBCtjVms {
+    bottom: 0;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
 .form-item {
     display: grid;
     align-items: center;
@@ -204,6 +215,10 @@ header {
 .newsletter {
     display: grid;
     padding: 10px;
+}
+
+button {
+    font-size: 20px;
 }
 
 article {
@@ -302,8 +317,13 @@ figure {
 }
 
 figure img {
-    max-width: 200px;
+    max-width: 150px;
     max-height: 250px;
+}
+
+figure-2 img {
+    max-width: 400px;
+    padding: 5px;
 }
 
 figcaption {
@@ -312,6 +332,7 @@ figcaption {
     font: italic smaller san-serif;
     padding: 3px;
     text-align: center;
+    font-size: 20px;
 }
 
 .grid-container {
@@ -325,7 +346,7 @@ figcaption {
 .grid-items {
     background-color: #dcebf8;
     border: 1px solid black;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
 }
@@ -557,16 +578,31 @@ aside {
     grid-row-gap: 5px;
 }
 
+.adventure2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 5px;
+    padding: 8px;
+}
+
+.gallery2 {
+    align-items: center;
+}
+
 .adventure img {
     object-fit: contain;
     max-width: 100%;
 }
 
 .gallery1 {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .gallery1 img {
+    height: 300px;
+}
+
+.gallery2 img {
     height: 300px;
 }
 
@@ -693,7 +729,7 @@ footer {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Roboto, Arial, sans-serif;
 }
 
