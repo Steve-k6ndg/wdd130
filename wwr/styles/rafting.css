@@ -607,13 +607,13 @@ aside {
 }
 
 .text.center {
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
 }
 
 .text-center {
-    font-size: 20px;
-    padding: 5px;
+    font-size: 22px;
+    padding: 1%;
     text-align: center;
 }
 
