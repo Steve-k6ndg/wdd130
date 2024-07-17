@@ -311,8 +311,9 @@ figure img {
 }
 
 figure-2 img {
+    width: 840px;
     max-width: 400px;
-    padding: 5px;
+    padding: 0px;
 }
 
 figcaption {
